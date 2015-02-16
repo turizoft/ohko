@@ -1,3 +1,16 @@
+(function(window) {
+  var ohko;
+  ohko = (function() {
+    function ohko() {}
+
+    ohko.app = null;
+
+    return ohko;
+
+  })();
+  window.ohko = ohko;
+})(window);
+
 var _base, _base1, _base2;
 
 window.traverse_object = function(o, f) {

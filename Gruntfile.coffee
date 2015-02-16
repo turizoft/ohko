@@ -1,5 +1,6 @@
 module.exports = (grunt) ->
   sourcefiles = [
+    'js/ohko.js'
     'js/config/helpers.js'
     'js/config/helpers.js'
     'js/config/backbone_overrides.js'
