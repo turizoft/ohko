@@ -1,5 +1,19 @@
 {
-    "name": "ohko",
-    "version": "0.0.1",
-    "main": "dist/ohko.js"
+  "name": "ohko",
+  "description": "One Hit helpers for Knockout.js",
+  "version": "0.0.1",
+  "main": "dist/ohko.js",
+  "dependencies" : {
+    "jquery": "*",
+    "underscore": "*",
+    "backbone": "*",
+    "backbone-relational": "*",
+    "knockout": "*",
+    "knockback": "0.19.3",
+    "backbone-pageable": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:turizoft/ohko.git"
+  }
 }

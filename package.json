@@ -8,14 +8,5 @@
 		"grunt-contrib-concat": "*",
 		"grunt-contrib-uglify": "*",
 		"grunt-contrib-clean": "*"
-	},
-	"dependencies" : {
-		"jquery": "*",
-		"underscore": "*",
-		"backbone": "*",
-		"backbone-relational": "*",
-		"knockout": "*",
-		"knockback": "0.19.3",
-		"backbone-pageable": "*"
 	}
 }
