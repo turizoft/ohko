@@ -1,7 +1,7 @@
 {
   "name": "ohko",
   "description": "One Hit helpers for Knockout.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/ohko.js",
   "dependencies" : {
     "jquery": "*",
