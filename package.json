@@ -1,0 +1,21 @@
+{
+	"name": "ohko",
+	"description": "One Hit helpers for Knockout.js",
+	"version" : "0.0.1",
+	"devDependencies": {
+		"grunt": "~0.4.5",
+		"grunt-contrib-coffee": "*",
+		"grunt-contrib-concat": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-clean": "*"
+	},
+	"dependencies" : {
+		"jquery": "*",
+		"underscore": "*",
+		"backbone": "*",
+		"backbone-relational": "*",
+		"knockout": "*",
+		"knockback": "0.19.3",
+		"backbone-pageable": "*"
+	}
+}

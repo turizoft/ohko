@@ -1,0 +1,5 @@
+{
+    "name": "ohko",
+    "version": "0.0.1",
+    "main": "dist/ohko.js"
+}
