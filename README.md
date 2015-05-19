@@ -34,7 +34,7 @@ class ViewModel extends kb.ViewModel
 with OHKO:
 
 ```coffeescript
-class ViewModel extends kb.ViewModel
+class ViewModel extends ohko.Model
   constructor: (model) ->
     @bind ['username', 'password'], from: model
     @indexes model.get('tags'), view_model: TagViewModel
