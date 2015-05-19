@@ -20,10 +20,9 @@ On the other hand, Backbone.js is proven to be one of the most mature and stable
 
 Nevertheless, I realised that i was repeating my self again and again when doing basic things such as defining view models and observables. For instance:
 
-´´´
+```coffescript
 class ViewModel extends kb.ViewModel
   constructor: (model) ->
     super model
-
     @full_name = ko.computed => "#{@first_name()} #{@last_name()}"
-´´´
+``
