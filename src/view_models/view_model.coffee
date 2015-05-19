@@ -51,7 +51,8 @@
       @[cn] = kb.collectionObservable(@["#{cn}_l"], {view_model: options.view_model, filters: filter_fn})
       @["#{cn}_changed"] = kb.triggeredObservable(@["#{cn}_l"], 'change sort add remove reset')
       @["#{cn}_empty"] = ko.computed(=> @["#{cn}_changed"](); !@["#{cn}_l"].length)
-      @["total_#{cn}"] = ko.computed(=> @["#{cn}_changed"](); numeral(@["#{cn}_l"].length).format('0a'))
+      @["total_#{cn}"] = ko.computed(=> @["#{cn}_changed"](); @["#{cn}_l"].length
+      @["total_#{cn}_formatted"] = ko.computed(=> @["#{cn}_changed"](); numeral(@["#{cn}_l"].length).format('0a'))
       
       # Make list selectable
       if 'selectable' in options.act_as
