@@ -1,4 +1,5 @@
 # One Hit K.O.
+## (documentation in progress!)
 
 OHKO, Knockout, Backbone and Knockback shorthands for Single Page Applications. Provides a set of classes and methods to avoid repeating yourself while doing common tasks such as creating data or collection bindings, routing your application, or saving a session.
 
@@ -20,7 +21,7 @@ On the other hand, Backbone.js is proven to be one of the most mature and stable
 
 Nevertheless, I realised that i was repeating my self again and again when doing basic things such as defining view models and observables. For instance (using knockback):
 
-```coffescript
+```coffeescript
 class ViewModel extends kb.ViewModel
   constructor: (model) ->
     @username = kb.observable(model, 'username')
@@ -32,7 +33,7 @@ class ViewModel extends kb.ViewModel
 
 with OHKO:
 
-```coffescript
+```coffeescript
 class ViewModel extends kb.ViewModel
   constructor: (model) ->
     @bind ['username', 'password'], from: model
